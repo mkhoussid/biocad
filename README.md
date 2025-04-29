@@ -5,7 +5,7 @@
 В корне проекта,
 
 ```bash
-docker-compose down -v
+docker-compose down -v # на всякий
 docker-compose up postgres
 ```
 
