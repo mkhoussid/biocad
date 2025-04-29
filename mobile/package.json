@@ -1,0 +1,37 @@
+{
+	"name": "biocad_mobile",
+	"version": "1.0.0",
+	"main": "index.ts",
+	"scripts": {
+		"start": "expo start",
+		"android": "expo start --android",
+		"ios": "expo start --ios",
+		"web": "expo start --web",
+		"tsc:check": "tsc",
+		"lint": "eslint . --ext .ts --ext .tsx --fix --max-warnings=0"
+	},
+	"dependencies": {
+		"@react-navigation/native": "^7.1.6",
+		"@react-navigation/stack": "^7.2.10",
+		"@reduxjs/toolkit": "^2.7.0",
+		"axios": "^1.9.0",
+		"expo": "~52.0.46",
+		"expo-status-bar": "~2.0.1",
+		"react": "18.3.1",
+		"react-native": "0.76.9",
+		"react-redux": "^9.2.0",
+		"redux": "^5.0.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.25.2",
+		"@types/react": "~18.3.12",
+		"@typescript-eslint/eslint-plugin": "^8.31.0",
+		"eslint": "^9.25.1",
+		"eslint-plugin-import-helpers": "^2.0.1",
+		"eslint-plugin-prettier": "^5.2.6",
+		"eslint-plugin-react": "^7.37.5",
+		"eslint-plugin-react-hooks": "^5.2.0",
+		"typescript": "^5.3.3"
+	},
+	"private": true
+}
